@@ -444,7 +444,7 @@ class MediaApiController extends Controller
     private $faker;
 
     /**
-     * To generate fake data
+     * To generate api request
      *
      * @var requestApi
      */
