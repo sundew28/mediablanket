@@ -24,7 +24,7 @@ Via Composer
 $ composer install
 ```
 
-Once your dependencies are downloaded next would be setting up your in the .env or enviorment file. 
+Once your dependencies are downloaded next would be setting up in the .env or enviorment file. 
 ```bash
 TEST_LEAD=true // set it true or false as you wish
 TEST_AFF_ID=161 // set it as you wish
@@ -47,4 +47,10 @@ After that run dev should spin up
 
 ```bash
 $ npm run dev
+```
+You should be able to see the code results through the URL set below for normal API calls and form calls
+
+```
+http://<your localhost>/generateresponse // normal API calls
+http://<your localhost>/leads-form // form submit of leads
 ```
